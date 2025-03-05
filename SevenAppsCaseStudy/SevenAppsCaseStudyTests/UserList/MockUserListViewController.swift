@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 @testable import SevenAppsCaseStudy
 class MockUserListViewController : UserListViewModelOutputProtocol {
     
@@ -66,5 +67,12 @@ class MockUserListViewController : UserListViewModelOutputProtocol {
          invokedesetNavigationTitle = true
          invokesetNavigationTitleCount += 1
         invokedsetNavigationTitleData.append((contract: contract, ()))
+    }
+    
+    var invokedpushViewControllerAble:Bool = false
+    var invokepushViewControllerAbleCount:Int = 0
+    func pushViewControllerAble(_ vc: UIViewController, animated: Bool) {
+         invokedpushViewControllerAble = true
+         invokepushViewControllerAbleCount += 1
     }
 }

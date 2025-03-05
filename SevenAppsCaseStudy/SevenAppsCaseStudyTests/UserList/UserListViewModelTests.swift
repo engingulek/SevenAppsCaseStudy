@@ -138,4 +138,22 @@ final class UserListViewModelTests: XCTestCase {
         wait(for: [expectation], timeout: 5)
         
     }
+    
+    func test_WhendidSelectUser() {
+        let expectation = XCTestExpectation(description: "Async task completed")
+        XCTAssertFalse(view.invokedpushViewControllerAble)
+        XCTAssertEqual(view.invokepushViewControllerAbleCount, 0,"is not correct")
+        service.mockList = [.init(id: 0, name: "test", email: "test")]
+        viewModel.viewDidLoad()
+        
+        let indexPath : IndexPath = [0,0]
+        viewModel.didSelectRow(at: indexPath)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            XCTAssertTrue(self.view.invokedpushViewControllerAble)
+            XCTAssertEqual(self.view.invokepushViewControllerAbleCount, 1,"is not correct")
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 5)
+    }
 }
