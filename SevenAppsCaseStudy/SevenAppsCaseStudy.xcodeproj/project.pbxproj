@@ -16,6 +16,8 @@
 		7D4DA9382D78665F000A222A /* SevenAppsCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */; };
 		7D4DA93A2D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */; };
 		7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9472D7869B7000A222A /* LabelFactory.swift */; };
+		7D4DA94C2D786BDC000A222A /* UserListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA94B2D786BDC000A222A /* UserListProtocols.swift */; };
+		7D4DA94E2D786C0F000A222A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA94D2D786C0F000A222A /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyUITests.swift; sourceTree = "<group>"; };
 		7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7D4DA9472D7869B7000A222A /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		7D4DA94B2D786BDC000A222A /* UserListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProtocols.swift; sourceTree = "<group>"; };
+		7D4DA94D2D786C0F000A222A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		7D4DA9152D78665D000A222A /* SevenAppsCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
+				7D4DA9492D786BA4000A222A /* Screen */,
 				7D4DA9462D7869A4000A222A /* Utils */,
 				7D4DA9162D78665D000A222A /* AppDelegate.swift */,
 				7D4DA9182D78665D000A222A /* SceneDelegate.swift */,
@@ -133,6 +138,23 @@
 				7D4DA9472D7869B7000A222A /* LabelFactory.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D4DA9492D786BA4000A222A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DA94A2D786BAE000A222A /* UserList */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7D4DA94A2D786BAE000A222A /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DA94B2D786BDC000A222A /* UserListProtocols.swift */,
+				7D4DA94D2D786C0F000A222A /* UserModel.swift */,
+			);
+			path = UserList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +290,8 @@
 				7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */,
 				7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */,
 				7D4DA9172D78665D000A222A /* AppDelegate.swift in Sources */,
+				7D4DA94C2D786BDC000A222A /* UserListProtocols.swift in Sources */,
+				7D4DA94E2D786C0F000A222A /* UserModel.swift in Sources */,
 				7D4DA9192D78665D000A222A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
