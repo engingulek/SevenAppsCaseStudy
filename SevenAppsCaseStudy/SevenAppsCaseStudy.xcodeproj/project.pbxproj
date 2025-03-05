@@ -12,7 +12,6 @@
 		7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA91A2D78665D000A222A /* ViewController.swift */; };
 		7D4DA9202D78665F000A222A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4DA91F2D78665F000A222A /* Assets.xcassets */; };
 		7D4DA9232D78665F000A222A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4DA9212D78665F000A222A /* LaunchScreen.storyboard */; };
-		7D4DA92E2D78665F000A222A /* SevenAppsCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA92D2D78665F000A222A /* SevenAppsCaseStudyTests.swift */; };
 		7D4DA9382D78665F000A222A /* SevenAppsCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */; };
 		7D4DA93A2D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */; };
 		7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9472D7869B7000A222A /* LabelFactory.swift */; };
@@ -37,6 +36,9 @@
 		7D4DA97D2D787493000A222A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97C2D787493000A222A /* NetworkManager.swift */; };
 		7D4DA97F2D7874C6000A222A /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97E2D7874C6000A222A /* UserListService.swift */; };
 		7D4DA9812D7877C6000A222A /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9802D7877C6000A222A /* UIActivityIndicatorView+Extension.swift */; };
+		7D4DA9862D787A0B000A222A /* MockUserDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9852D787A0B000A222A /* MockUserDetailService.swift */; };
+		7D4DA9882D787A57000A222A /* MockUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9872D787A57000A222A /* MockUserListViewController.swift */; };
+		7D4DA98A2D787A9F000A222A /* UserListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9892D787A9F000A222A /* UserListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +67,6 @@
 		7D4DA9222D78665F000A222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D4DA9242D78665F000A222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D4DA9292D78665F000A222A /* SevenAppsCaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenAppsCaseStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D4DA92D2D78665F000A222A /* SevenAppsCaseStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyTests.swift; sourceTree = "<group>"; };
 		7D4DA9332D78665F000A222A /* SevenAppsCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenAppsCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyUITests.swift; sourceTree = "<group>"; };
 		7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -89,6 +90,9 @@
 		7D4DA97C2D787493000A222A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7D4DA97E2D7874C6000A222A /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListService.swift; sourceTree = "<group>"; };
 		7D4DA9802D7877C6000A222A /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
+		7D4DA9852D787A0B000A222A /* MockUserDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDetailService.swift; sourceTree = "<group>"; };
+		7D4DA9872D787A57000A222A /* MockUserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserListViewController.swift; sourceTree = "<group>"; };
+		7D4DA9892D787A9F000A222A /* UserListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +164,7 @@
 		7D4DA92C2D78665F000A222A /* SevenAppsCaseStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				7D4DA92D2D78665F000A222A /* SevenAppsCaseStudyTests.swift */,
+				7D4DA9842D7879F2000A222A /* UserList */,
 			);
 			path = SevenAppsCaseStudyTests;
 			sourceTree = "<group>";
@@ -244,6 +248,16 @@
 			path = NetworkManager;
 			sourceTree = "<group>";
 		};
+		7D4DA9842D7879F2000A222A /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DA9852D787A0B000A222A /* MockUserDetailService.swift */,
+				7D4DA9872D787A57000A222A /* MockUserListViewController.swift */,
+				7D4DA9892D787A9F000A222A /* UserListViewModelTests.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +335,7 @@
 					};
 					7D4DA9282D78665F000A222A = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 						TestTargetID = 7D4DA9122D78665D000A222A;
 					};
 					7D4DA9322D78665F000A222A = {
@@ -413,7 +428,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D4DA92E2D78665F000A222A /* SevenAppsCaseStudyTests.swift in Sources */,
+				7D4DA98A2D787A9F000A222A /* UserListViewModelTests.swift in Sources */,
+				7D4DA9882D787A57000A222A /* MockUserListViewController.swift in Sources */,
+				7D4DA9862D787A0B000A222A /* MockUserDetailService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +660,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45DX68AP4J;
@@ -652,6 +670,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = engingulek.SevenAppsCaseStudyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenAppsCaseStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SevenAppsCaseStudy";
@@ -663,6 +682,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45DX68AP4J;
