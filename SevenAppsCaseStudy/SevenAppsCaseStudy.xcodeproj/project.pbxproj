@@ -35,6 +35,7 @@
 		7D4DA9792D787440000A222A /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9782D787440000A222A /* TargetType.swift */; };
 		7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97A2D787460000A222A /* NetworkPath.swift */; };
 		7D4DA97D2D787493000A222A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97C2D787493000A222A /* NetworkManager.swift */; };
+		7D4DA97F2D7874C6000A222A /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97E2D7874C6000A222A /* UserListService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		7D4DA9782D787440000A222A /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		7D4DA97A2D787460000A222A /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
 		7D4DA97C2D787493000A222A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7D4DA97E2D7874C6000A222A /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				7D4DA9562D786D0F000A222A /* UserTableViewCell.swift */,
 				7D4DA9582D786E68000A222A /* UserListViewModel.swift */,
 				7D4DA96C2D7871D7000A222A /* UserListContract.swift */,
+				7D4DA97E2D7874C6000A222A /* UserListService.swift */,
 			);
 			path = UserList;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				7D4DA9502D786C9A000A222A /* UserListViewController.swift in Sources */,
 				7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */,
 				7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */,
+				7D4DA97F2D7874C6000A222A /* UserListService.swift in Sources */,
 				7D4DA96B2D7871BF000A222A /* UIColor+Extension.swift in Sources */,
 				7D4DA9792D787440000A222A /* TargetType.swift in Sources */,
 				7D4DA9632D7870AC000A222A /* TextTheme.swift in Sources */,
