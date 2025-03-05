@@ -13,7 +13,7 @@ protocol UserListViewModelInputProtocol   {
     var delegate : UserListViewModelOutputProtocol? {set get}
     func viewDidLoad()
     func numberOfItems() -> Int
-    func cellForItem(at indexPath:IndexPath) -> User
+    func cellForItem(at indexPath:IndexPath) ->(user:User,title:(nameTitle:String,emailTitle:String))
     func heightForRow() -> CGFloat
 }
 

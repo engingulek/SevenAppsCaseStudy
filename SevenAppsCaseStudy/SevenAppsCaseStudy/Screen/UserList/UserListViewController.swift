@@ -57,7 +57,7 @@ extension UserListViewController : UITableViewDelegate,UITableViewDataSource {
         withIdentifier: UserTableViewCell.identifier,
         for: indexPath) as? UserTableViewCell else {return UITableViewCell()}
         let item = viewModel.cellForItem(at: indexPath)
-        cell.configureData(user: item)
+        cell.configureData(user: item.user, title: item.title)
         cell.selectionStyle = .none
         return cell
     }
