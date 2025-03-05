@@ -15,6 +15,7 @@
 		7D4DA92E2D78665F000A222A /* SevenAppsCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA92D2D78665F000A222A /* SevenAppsCaseStudyTests.swift */; };
 		7D4DA9382D78665F000A222A /* SevenAppsCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */; };
 		7D4DA93A2D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */; };
+		7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9472D7869B7000A222A /* LabelFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7D4DA9332D78665F000A222A /* SevenAppsCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenAppsCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyUITests.swift; sourceTree = "<group>"; };
 		7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenAppsCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D4DA9472D7869B7000A222A /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		7D4DA9152D78665D000A222A /* SevenAppsCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
+				7D4DA9462D7869A4000A222A /* Utils */,
 				7D4DA9162D78665D000A222A /* AppDelegate.swift */,
 				7D4DA9182D78665D000A222A /* SceneDelegate.swift */,
 				7D4DA91A2D78665D000A222A /* ViewController.swift */,
@@ -122,6 +125,14 @@
 				7D4DA9392D78665F000A222A /* SevenAppsCaseStudyUITestsLaunchTests.swift */,
 			);
 			path = SevenAppsCaseStudyUITests;
+			sourceTree = "<group>";
+		};
+		7D4DA9462D7869A4000A222A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DA9472D7869B7000A222A /* LabelFactory.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */,
+				7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */,
 				7D4DA9172D78665D000A222A /* AppDelegate.swift in Sources */,
 				7D4DA9192D78665D000A222A /* SceneDelegate.swift in Sources */,
 			);
