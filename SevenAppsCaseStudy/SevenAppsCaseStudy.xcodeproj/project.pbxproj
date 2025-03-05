@@ -29,6 +29,12 @@
 		7D4DA96B2D7871BF000A222A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA96A2D7871BF000A222A /* UIColor+Extension.swift */; };
 		7D4DA96D2D7871D7000A222A /* UserListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA96C2D7871D7000A222A /* UserListContract.swift */; };
 		7D4DA96F2D7871F5000A222A /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA96E2D7871F5000A222A /* ColorTheme.swift */; };
+		7D4DA9722D787404000A222A /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9712D787404000A222A /* NetworkConstants.swift */; };
+		7D4DA9752D787434000A222A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4DA9742D787434000A222A /* Alamofire */; };
+		7D4DA9772D787434000A222A /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4DA9762D787434000A222A /* AlamofireDynamic */; };
+		7D4DA9792D787440000A222A /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9782D787440000A222A /* TargetType.swift */; };
+		7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97A2D787460000A222A /* NetworkPath.swift */; };
+		7D4DA97D2D787493000A222A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97C2D787493000A222A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,10 @@
 		7D4DA96A2D7871BF000A222A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7D4DA96C2D7871D7000A222A /* UserListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListContract.swift; sourceTree = "<group>"; };
 		7D4DA96E2D7871F5000A222A /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		7D4DA9712D787404000A222A /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		7D4DA9782D787440000A222A /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		7D4DA97A2D787460000A222A /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
+		7D4DA97C2D787493000A222A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4DA9752D787434000A222A /* Alamofire in Frameworks */,
+				7D4DA9772D787434000A222A /* AlamofireDynamic in Frameworks */,
 				7D4DA9532D786CB5000A222A /* SnapKit in Frameworks */,
 				7D4DA9552D786CB5000A222A /* SnapKit-Dynamic in Frameworks */,
 			);
@@ -127,6 +139,7 @@
 		7D4DA9152D78665D000A222A /* SevenAppsCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
+				7D4DA9702D7873EF000A222A /* NetworkManager */,
 				7D4DA9492D786BA4000A222A /* Screen */,
 				7D4DA9462D7869A4000A222A /* Utils */,
 				7D4DA9162D78665D000A222A /* AppDelegate.swift */,
@@ -214,6 +227,17 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		7D4DA9702D7873EF000A222A /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DA9712D787404000A222A /* NetworkConstants.swift */,
+				7D4DA9782D787440000A222A /* TargetType.swift */,
+				7D4DA97A2D787460000A222A /* NetworkPath.swift */,
+				7D4DA97C2D787493000A222A /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,6 +257,8 @@
 			packageProductDependencies = (
 				7D4DA9522D786CB5000A222A /* SnapKit */,
 				7D4DA9542D786CB5000A222A /* SnapKit-Dynamic */,
+				7D4DA9742D787434000A222A /* Alamofire */,
+				7D4DA9762D787434000A222A /* AlamofireDynamic */,
 			);
 			productName = SevenAppsCaseStudy;
 			productReference = 7D4DA9132D78665D000A222A /* SevenAppsCaseStudy.app */;
@@ -309,6 +335,7 @@
 			mainGroup = 7D4DA90A2D78665D000A222A;
 			packageReferences = (
 				7D4DA9512D786CB5000A222A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7D4DA9732D787434000A222A /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 7D4DA9142D78665D000A222A /* Products */;
 			projectDirPath = "";
@@ -353,15 +380,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4DA97D2D787493000A222A /* NetworkManager.swift in Sources */,
 				7D4DA9682D787189000A222A /* AbleKit.swift in Sources */,
 				7D4DA9502D786C9A000A222A /* UserListViewController.swift in Sources */,
+				7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */,
 				7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */,
 				7D4DA96B2D7871BF000A222A /* UIColor+Extension.swift in Sources */,
+				7D4DA9792D787440000A222A /* TargetType.swift in Sources */,
 				7D4DA9632D7870AC000A222A /* TextTheme.swift in Sources */,
 				7D4DA96D2D7871D7000A222A /* UserListContract.swift in Sources */,
 				7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */,
 				7D4DA9172D78665D000A222A /* AppDelegate.swift in Sources */,
 				7D4DA9592D786E68000A222A /* UserListViewModel.swift in Sources */,
+				7D4DA9722D787404000A222A /* NetworkConstants.swift in Sources */,
 				7D4DA96F2D7871F5000A222A /* ColorTheme.swift in Sources */,
 				7D4DA9572D786D0F000A222A /* UserTableViewCell.swift in Sources */,
 				7D4DA94C2D786BDC000A222A /* UserListProtocols.swift in Sources */,
@@ -725,6 +756,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		7D4DA9732D787434000A222A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -737,6 +776,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D4DA9512D786CB5000A222A /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		7D4DA9742D787434000A222A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4DA9732D787434000A222A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7D4DA9762D787434000A222A /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4DA9732D787434000A222A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
