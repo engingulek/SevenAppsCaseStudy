@@ -14,6 +14,7 @@ protocol UserListViewModelInputProtocol   {
     func viewDidLoad()
     func numberOfItems() -> Int
     func cellForItem(at indexPath:IndexPath) -> User
+    func heightForRow() -> CGFloat
 }
 
 // MARK: - UserListViewModelOutputProtocol
