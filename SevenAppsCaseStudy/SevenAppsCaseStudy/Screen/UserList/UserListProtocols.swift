@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+typealias UserListKits = UIViewAble & NavigationTitleAble
 // MARK: - UserListViewModelInputProtocol
 /// The input protocol for the UserListViewModel.
 protocol UserListViewModelInputProtocol   {
@@ -19,7 +19,7 @@ protocol UserListViewModelInputProtocol   {
 
 // MARK: - UserListViewModelOutputProtocol
 /// The output protocol for the UserListViewModel.
-protocol UserListViewModelOutputProtocol : AnyObject {
+protocol UserListViewModelOutputProtocol : AnyObject,UserListKits {
     func prepareTableView()
     func reloadTableView()
 }

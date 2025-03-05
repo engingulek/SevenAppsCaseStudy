@@ -13,8 +13,15 @@ class UserListViewModel: UserListViewModelInputProtocol {
     weak var delegate: UserListViewModelOutputProtocol?
     
     func viewDidLoad() {
+        delegate?.setBackColorAble(color: ColorTheme.primaryBackColor.rawValue)
         delegate?.prepareTableView()
         delegate?.reloadTableView()
+        
+        let navigationTitleContract = NavigationTitleContract(
+            prefersLargeTitle: true,
+            title: TextTheme.userListTitle.localized,
+            titleType: .always)
+        delegate?.setNavigationTitle(contract: navigationTitleContract)
     }
     
     func numberOfItems() -> Int {
