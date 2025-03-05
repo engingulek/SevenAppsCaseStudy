@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  SevenAppsCaseStudy
+
+  Created by Engin Gülek on 5.03.2025.
+  
+*/
+
+"userListTitle" = "User List";
+"nameTitle" = "Name: ";
+"emailTitle" = "E-mail: ";
+"websiteTitle" = "Website: ";
+"phoneTitle" = "Phone: ";
+"errorMessage" = "Something Went Wrong";
+"detail" = "User Detail";
+"address" = "Address";
+"street" = "Street: ";
+"suite" = "Suite: ";
+"city" = "City: ";
+"zipcode" = "Zipcode: ";
