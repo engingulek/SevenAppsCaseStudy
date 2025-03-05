@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SevenAppsCaseStudy
+
+  Created by Engin Gülek on 5.03.2025.
+  
+*/
+
+"userListTitle" = "Kullanıcı Listesi";
+"nameTitle" = "İsim: ";
+"emailTitle" = "E-posta: ";
