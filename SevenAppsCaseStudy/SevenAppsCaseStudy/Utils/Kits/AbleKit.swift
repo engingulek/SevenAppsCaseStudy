@@ -50,3 +50,21 @@ extension NavigationTitleAble where Self : UIViewController {
         }
     }
 }
+
+
+// MARK: - SegueAble Protocol
+/// This protocol defines a method for pushing a view controller onto the navigation stack.
+public protocol SegueAble {
+    /// Pushes the given `UIViewController` onto the navigation stack.
+    /// - Parameters:
+    ///   - vc: The view controller to be pushed.
+    ///   - animated: A Boolean value indicating whether the transition is animated.
+    func pushViewControllerAble (_ vc:UIViewController,animated:Bool)
+}
+
+extension SegueAble  where Self : UIViewController{
+    func pushViewControllerAble (_ vc:UIViewController,animated:Bool) {
+        navigationController?.pushViewController(vc, animated: animated)
+    }
+}
+

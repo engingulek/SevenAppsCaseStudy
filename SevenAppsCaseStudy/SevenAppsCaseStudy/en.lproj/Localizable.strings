@@ -9,4 +9,12 @@
 "userListTitle" = "User List";
 "nameTitle" = "Name: ";
 "emailTitle" = "E-mail: ";
+"websiteTitle" = "Website: ";
+"phoneTitle" = "Phone: ";
 "errorMessage" = "Something Went Wrong";
+"detail" = "User Detail";
+"address" = "Address";
+"street" = "Street: ";
+"suite" = "Suite: ";
+"city" = "City: ";
+"zipcode" = "Zipcode: ";

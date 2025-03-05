@@ -62,4 +62,14 @@ extension UserListViewModel: UserListViewModelInputProtocol {
     func heightForRow() -> CGFloat {
         return 80
     }
+    
+    // when a row is selected. Navigates to the user detail screen.
+      /// - Parameters:
+      ///   - indexPath: The index path of the selected row.
+    func didSelectRow(at indexPath: IndexPath) {
+
+        let id = list[indexPath.row].id
+       
+        delegate?.pushViewControllerAble(UserDetailViewController(), animated: true)
+    }
 }

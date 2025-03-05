@@ -39,6 +39,7 @@
 		7D4DA9862D787A0B000A222A /* MockUserDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9852D787A0B000A222A /* MockUserDetailService.swift */; };
 		7D4DA9882D787A57000A222A /* MockUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9872D787A57000A222A /* MockUserListViewController.swift */; };
 		7D4DA98A2D787A9F000A222A /* UserListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9892D787A9F000A222A /* UserListViewModelTests.swift */; };
+		7D4DA98D2D78810C000A222A /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA98C2D78810C000A222A /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		7D4DA9852D787A0B000A222A /* MockUserDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDetailService.swift; sourceTree = "<group>"; };
 		7D4DA9872D787A57000A222A /* MockUserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserListViewController.swift; sourceTree = "<group>"; };
 		7D4DA9892D787A9F000A222A /* UserListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModelTests.swift; sourceTree = "<group>"; };
+		7D4DA98C2D78810C000A222A /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		7D4DA9492D786BA4000A222A /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				7D4DA98B2D78805E000A222A /* UserDetail */,
 				7D4DA94A2D786BAE000A222A /* UserList */,
 			);
 			path = Screen;
@@ -256,6 +259,14 @@
 				7D4DA9892D787A9F000A222A /* UserListViewModelTests.swift */,
 			);
 			path = UserList;
+			sourceTree = "<group>";
+		};
+		7D4DA98B2D78805E000A222A /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DA98C2D78810C000A222A /* UserDetailViewController.swift */,
+			);
+			path = UserDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +426,7 @@
 				7D4DA9482D7869B7000A222A /* LabelFactory.swift in Sources */,
 				7D4DA9172D78665D000A222A /* AppDelegate.swift in Sources */,
 				7D4DA9592D786E68000A222A /* UserListViewModel.swift in Sources */,
+				7D4DA98D2D78810C000A222A /* UserDetailViewController.swift in Sources */,
 				7D4DA9722D787404000A222A /* NetworkConstants.swift in Sources */,
 				7D4DA96F2D7871F5000A222A /* ColorTheme.swift in Sources */,
 				7D4DA9572D786D0F000A222A /* UserTableViewCell.swift in Sources */,

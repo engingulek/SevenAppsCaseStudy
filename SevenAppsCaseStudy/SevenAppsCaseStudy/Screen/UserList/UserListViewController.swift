@@ -91,4 +91,8 @@ extension UserListViewController : UITableViewDelegate,UITableViewDataSource {
         return viewModel.heightForRow()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel.didSelectRow(at: indexPath)
+    }
+    
 }

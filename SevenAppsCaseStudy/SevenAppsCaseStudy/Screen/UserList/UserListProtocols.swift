@@ -6,7 +6,7 @@
 //
 
 import Foundation
-typealias UserListKits = UIViewAble & NavigationTitleAble
+typealias UserListKits = UIViewAble & NavigationTitleAble & SegueAble
 // MARK: - UserListViewModelInputProtocol
 /// The input protocol for the UserListViewModel.
 protocol UserListViewModelInputProtocol   {
@@ -15,6 +15,7 @@ protocol UserListViewModelInputProtocol   {
     func numberOfItems() -> Int
     func cellForItem(at indexPath:IndexPath) ->(user:User,title:(nameTitle:String,emailTitle:String))
     func heightForRow() -> CGFloat
+    func didSelectRow(at indexPath:IndexPath)
 }
 
 // MARK: - UserListViewModelOutputProtocol
