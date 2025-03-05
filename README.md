@@ -1,8 +1,8 @@
 # SevenAppsCaseStudy
 
-JSONPlaceholder apisi kullanılarak kullanıcıların listelendği ve tıklanıldığında kullanıcı detayına giden iki sayfalı bir uygulamadır.
-Unit test ve SOLID prensiplerini uygulamak için protocol oriented programming kullanılmıştır. Veri operasyonlarını business katmanından ayırmak için 
-Service katmanları oluşturulmuştur. Kodlama yapsına daha fazla önem verildiği için sayfa tasarımı basit yapılmıştır
+This is a two-page application that lists users retrieved from the JSONPlaceholder API. When a user is clicked, the app navigates to the user details page.
+
+Protocol-oriented programming has been used to apply unit testing and SOLID principles. Service layers have been created to separate data operations from the business layer. Since the focus is on coding structure, the UI design has been kept simple. Additionally, the app supports both English and Turkish languages.
 
 ## 3rd Party Frameworkler
 <ul>
@@ -20,9 +20,9 @@ Service katmanları oluşturulmuştur. Kodlama yapsına daha fazla önem verildi
   
 </ul>  
 
-## Projeyi Klonlama
 
-Bu projeyi bilgisayarınıza klonlamak için aşağıdaki komutu kullanabilirsiniz:
+
+To clone this project to your computer, use the following command:
 ```bash
 git clone https://github.com/engingulek/SevenAppsCaseStudy
 ```
