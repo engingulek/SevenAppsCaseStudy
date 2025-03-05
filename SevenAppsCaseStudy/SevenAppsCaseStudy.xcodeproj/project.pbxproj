@@ -36,6 +36,7 @@
 		7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97A2D787460000A222A /* NetworkPath.swift */; };
 		7D4DA97D2D787493000A222A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97C2D787493000A222A /* NetworkManager.swift */; };
 		7D4DA97F2D7874C6000A222A /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA97E2D7874C6000A222A /* UserListService.swift */; };
+		7D4DA9812D7877C6000A222A /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9802D7877C6000A222A /* UIActivityIndicatorView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		7D4DA97A2D787460000A222A /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
 		7D4DA97C2D787493000A222A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7D4DA97E2D7874C6000A222A /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListService.swift; sourceTree = "<group>"; };
+		7D4DA9802D7877C6000A222A /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				7D4DA96A2D7871BF000A222A /* UIColor+Extension.swift */,
+				7D4DA9802D7877C6000A222A /* UIActivityIndicatorView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4DA97D2D787493000A222A /* NetworkManager.swift in Sources */,
+				7D4DA9812D7877C6000A222A /* UIActivityIndicatorView+Extension.swift in Sources */,
 				7D4DA9682D787189000A222A /* AbleKit.swift in Sources */,
 				7D4DA9502D786C9A000A222A /* UserListViewController.swift in Sources */,
 				7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */,

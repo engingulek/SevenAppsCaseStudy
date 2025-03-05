@@ -9,3 +9,4 @@
 "userListTitle" = "Kullanıcı Listesi";
 "nameTitle" = "İsim: ";
 "emailTitle" = "E-posta: ";
+"errorMessage" = "Bir şeyler ters gitti";
