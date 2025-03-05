@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 class UserTableViewCell : UITableViewCell {
     
-    static let identifier : String =  "UserTableViewCellIdentifier"
+    static let identifier : String =  "userTableViewCellIdentifier"
     private lazy var nameTitleLabel = LabalFactory.createLabel(ofType: .mediumCellTitleLabel)
     private lazy var nameLabel = LabalFactory.createLabel(ofType: .mediumCellLabel)
     private lazy var emailLabel = LabalFactory.createLabel(ofType: .mediumCellLabel)

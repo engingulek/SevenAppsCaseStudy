@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7D4DA9172D78665D000A222A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9162D78665D000A222A /* AppDelegate.swift */; };
 		7D4DA9192D78665D000A222A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9182D78665D000A222A /* SceneDelegate.swift */; };
-		7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA91A2D78665D000A222A /* ViewController.swift */; };
 		7D4DA9202D78665F000A222A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4DA91F2D78665F000A222A /* Assets.xcassets */; };
 		7D4DA9232D78665F000A222A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4DA9212D78665F000A222A /* LaunchScreen.storyboard */; };
 		7D4DA9382D78665F000A222A /* SevenAppsCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA9372D78665F000A222A /* SevenAppsCaseStudyUITests.swift */; };
@@ -71,7 +70,6 @@
 		7D4DA9132D78665D000A222A /* SevenAppsCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenAppsCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4DA9162D78665D000A222A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4DA9182D78665D000A222A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D4DA91A2D78665D000A222A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D4DA91F2D78665F000A222A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D4DA9222D78665F000A222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D4DA9242D78665F000A222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				7D4DA9462D7869A4000A222A /* Utils */,
 				7D4DA9162D78665D000A222A /* AppDelegate.swift */,
 				7D4DA9182D78665D000A222A /* SceneDelegate.swift */,
-				7D4DA91A2D78665D000A222A /* ViewController.swift */,
 				7D4DA91F2D78665F000A222A /* Assets.xcassets */,
 				7D4DA9212D78665F000A222A /* LaunchScreen.storyboard */,
 				7D4DA9242D78665F000A222A /* Info.plist */,
@@ -450,7 +447,6 @@
 				7D4DA9682D787189000A222A /* AbleKit.swift in Sources */,
 				7D4DA9502D786C9A000A222A /* UserListViewController.swift in Sources */,
 				7D4DA97B2D787460000A222A /* NetworkPath.swift in Sources */,
-				7D4DA91B2D78665D000A222A /* ViewController.swift in Sources */,
 				7D4DA97F2D7874C6000A222A /* UserListService.swift in Sources */,
 				7D4DA96B2D7871BF000A222A /* UIColor+Extension.swift in Sources */,
 				7D4DA9792D787440000A222A /* TargetType.swift in Sources */,
