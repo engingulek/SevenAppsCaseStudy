@@ -10,7 +10,7 @@ import Alamofire
 
 public enum  NetworkPath {
     case users
-    
+    case user(Int)
 }
 
 
@@ -23,6 +23,8 @@ extension NetworkPath : TargetType {
         switch self {
         case .users:
             return NetworkConstants.users.rawValue
+        case .user(let id):
+            return NetworkConstants.users.rawValue + "/\(id)"
         }
     }
     

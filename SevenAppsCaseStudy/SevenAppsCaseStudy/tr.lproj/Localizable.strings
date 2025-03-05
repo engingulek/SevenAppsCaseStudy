@@ -9,4 +9,13 @@
 "userListTitle" = "Kullanıcı Listesi";
 "nameTitle" = "İsim: ";
 "emailTitle" = "E-posta: ";
+"websiteTitle" = "Website: ";
+"phoneTitle" = "Telefon: ";
 "errorMessage" = "Bir şeyler ters gitti";
+"detail" = "Kullanıcı Detay";
+"address" = "Adres";
+"street" = "Sokak: ";
+"suite" = "Süit: ";
+"city" = "Şehir: ";
+"zipcode" = "Posta Kodu: ";
+
