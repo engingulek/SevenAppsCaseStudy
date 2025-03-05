@@ -69,7 +69,8 @@ extension UserListViewModel: UserListViewModelInputProtocol {
     func didSelectRow(at indexPath: IndexPath) {
 
         let id = list[indexPath.row].id
-       
-        delegate?.pushViewControllerAble(UserDetailViewController(), animated: true)
+        var userDetailViewModel : UserDetailViewModelInputProtocol = UserDetailViewModel(service: UserDetailService())
+        userDetailViewModel.id = id
+        delegate?.pushViewControllerAble(UserDetailViewController(viewModel: userDetailViewModel), animated: true)
     }
 }
