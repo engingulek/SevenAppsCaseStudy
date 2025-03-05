@@ -9,3 +9,4 @@
 "userListTitle" = "User List";
 "nameTitle" = "Name: ";
 "emailTitle" = "E-mail: ";
+"errorMessage" = "Something Went Wrong";

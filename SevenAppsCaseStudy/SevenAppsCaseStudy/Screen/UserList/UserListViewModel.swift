@@ -18,9 +18,13 @@ class UserListViewModel{
     weak var delegate: UserListViewModelOutputProtocol?
     
     private func getUserList() {
+        delegate?.startLoading()
         Task{
             let result = await  service.fetchUserList()
             list = result.list
+            let message = result.errorState ? TextTheme.errorMessage.localized : ""
+            delegate?.errorState(message: message, isHidden: !result.errorState)
+            delegate?.stopLoading()
             delegate?.reloadTableView()
         }
     }

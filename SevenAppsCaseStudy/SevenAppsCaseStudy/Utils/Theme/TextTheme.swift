@@ -12,6 +12,7 @@ enum TextTheme : String {
     case userListTitle
     case nameTitle
     case emailTitle
+    case errorMessage
     
     
     var localized: String {
@@ -22,6 +23,8 @@ enum TextTheme : String {
             return NSLocalizedString("nameTitle",comment: "nameTitle text")
         case .emailTitle:
             return NSLocalizedString("emailTitle",comment: "emailTitle text")
+        case .errorMessage:
+            return NSLocalizedString("errorMessage",comment: "errorMessage text")
         }
     }
 }

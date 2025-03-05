@@ -22,4 +22,7 @@ protocol UserListViewModelInputProtocol   {
 protocol UserListViewModelOutputProtocol : AnyObject,UserListKits {
     func prepareTableView()
     func reloadTableView()
+    func startLoading()
+    func stopLoading()
+    func errorState(message:String,isHidden:Bool)
 }
