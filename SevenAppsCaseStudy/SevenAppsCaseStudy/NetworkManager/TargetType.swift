@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+
 protocol TargetType {
     var baseURL: String {get}
     var path: String {get}
@@ -17,7 +18,6 @@ protocol TargetType {
 
 enum AlamofireMethod: String {
     case GET
-
 }
 
 enum RequestType {
